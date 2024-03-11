@@ -1,4 +1,5 @@
 Sorting Algorithms
+
 This repository contains implementations of various sorting algorithms in different programming languages.
 
 Algorithms Included
@@ -8,8 +9,8 @@ Merge Sort
 Selection Sort
 Quick Sort
 Heap Sort
-Languages
-Each algorithm is implemented in multiple programming languages for educational purposes and comparison.
 
 
-JavaScript
+Each algorithm is implemented in multiple JAVASCRIPT for educational purposes and comparison.
+
+
