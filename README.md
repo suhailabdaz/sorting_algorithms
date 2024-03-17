@@ -17,7 +17,8 @@ Each algorithm is implemented in multiple programming languages for educational 
 
 
 - JavaScript
-- (Add more as needed)
+- Dart
+- (Add more as needed - Read "Contributing" Section :)
 
 ## Usage
 
