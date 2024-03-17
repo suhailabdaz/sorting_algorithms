@@ -1,3 +1,16 @@
+//Heap sort function
+List<int> heapSort(MinHeap minHeap) {
+  List<int> sortedList = [];
+  
+  while (minHeap.heap.isNotEmpty) {
+    int minElement = minHeap.peek();
+    sortedList.add(minElement);
+    minHeap.remove();
+  }
+
+  return sortedList;
+}
+// construction of heap
 class MinHeap {
   List<int> heap = [];
 
@@ -86,17 +99,7 @@ class MinHeap {
 }
 
 
-List<int> heapSort(MinHeap minHeap) {
-  List<int> sortedList = [];
-  
-  while (minHeap.heap.isNotEmpty) {
-    int minElement = minHeap.peek();
-    sortedList.add(minElement);
-    minHeap.remove();
-  }
 
-  return sortedList;
-}
 
 // for example main function is provided
 
@@ -111,3 +114,29 @@ void main(List<String> args) {
     print(sortedList[i]);
   }
 }
+
+// Solution is commented
+
+/* 
+
+Min Heap:
+1
+3
+4
+6
+9
+8
+5
+7
+
+Sorted Array:
+1
+3
+4
+5
+6
+7
+8
+9
+
+*/
