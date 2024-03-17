@@ -15,3 +15,14 @@ class Selection {
     return array;
   }
 }
+//main function
+void main() {
+  Selection s = Selection();
+  List<int> array = [2, 8, 6, 1, 4, 5, 9];
+  print(s.selectionSort(array));
+}
+
+/*
+output : 
+[1, 2, 4, 5, 6, 8, 9]
+*/

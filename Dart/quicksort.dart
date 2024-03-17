@@ -36,3 +36,25 @@ class QuickSort {
     array[j] = temp;
   }
 }
+
+//main function
+void main() {  
+  List<int> arr = [1, 4, 3, 6, 4, 3, 9];
+  arr.forEach((element) {
+    print(element);
+  });
+  QuickSort q = QuickSort();
+  print(q.quick(arr));
+}
+/*
+output : 
+1
+4
+3
+6
+4
+3
+9
+
+[1, 3, 3, 4, 4, 6, 9]
+ */

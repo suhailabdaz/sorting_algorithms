@@ -36,3 +36,15 @@ class MergeSort {
     return result;
   }
 }
+
+//main function
+void main() {
+  List<int> array = [1, 2, 5, 6, 7, 4, 3];
+  MergeSort ms = MergeSort();
+  print(ms.merge(array));
+}
+
+/*
+output :  
+[1, 2, 3, 4, 5, 6, 7]
+ */

@@ -11,3 +11,21 @@ List<int> bubbleSort(List<int> array) {
   }
   return array;
 }
+
+
+// main function
+void main() {
+  List<int> array = [2, 8, 9, 6, 3, 10, 11, 1, 1, 7];
+  print("original array");
+  print(array);
+  print("sorted array");
+  print(bubbleSort(array));
+}
+
+// output
+/*
+original array
+[2, 8, 9, 6, 3, 10, 11, 1, 1, 7]
+sorted array
+[1, 1, 2, 3, 6, 7, 8, 9, 10, 11]
+ */
