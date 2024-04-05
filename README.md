@@ -36,8 +36,5 @@ Contributions are welcome! If you'd like to contribute:
 
 Please ensure your code follows the style conventions of the respective language and includes appropriate documentation.
 
-## License
-
-This project is licensed under the **MIT License**
 
 
