@@ -20,9 +20,6 @@ Each algorithm is implemented in multiple programming languages for educational 
 - Dart
 - (Add more as needed - Read "Contributing" Section :)
 
-## Usage
-
-To use any of these sorting algorithms, follow the instructions provided in each language-specific directory.
 
 ## Contributing
 
